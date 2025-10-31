@@ -1,0 +1,117 @@
+{
+    "app": {
+        "title": "Crypto Dashboard",
+        "loading": "Loading data...",
+        "error": "Error fetching data.",
+        "title_aria": "Cryptocurrency Dashboard"
+    },
+    "filters": {
+        "search": "Search...",
+        "reset": "Reset filters",
+        "currency": "Currency",
+        "order": {
+            "market_cap_desc": "Market cap ↓",
+            "market_cap_asc": "Market cap ↑",
+            "volume_desc": "Volume ↓"
+        },
+        "trend": {
+            "all": "All",
+            "positive": "Rising",
+            "negative": "Falling"
+        },
+        "price_range": {
+            "all": "All prices",
+            "less": "or less",
+            "low": "Under $1",
+            "medium": "$1 – $100",
+            "high": "$100 – $10,000",
+            "very_high": "Over $10,000"
+        }
+    },
+    "aria": {
+        "currency": "Select currency",
+        "order": "Select order",
+        "top": "Select number of top coins to show",
+        "trend": "Select price trend",
+        "price_range": "Select price range",
+        "search": "Search cryptocurrency",
+        "reset_filters": "Reset all filters"
+    },
+    "table": {
+        "aria_description": "Cryptocurrency table showing prices, market cap, and daily changes",
+        "number": "#",
+        "coin": "Coin",
+        "price": "Price",
+        "volume_24h": "Volume 24h",
+        "high_low_24h": "High/Low 24h",
+        "market_cap": "Market Cap",
+        "change_24h": "% 24h",
+        "coin_name": "Coin",
+        "coin_logo_alt": "{{name}} logo",
+        "price_label": "Price {{value}} {{currency}}",
+        "volume_label": "Volume {{value}} {{currency}}",
+        "high_low_label": "High {{high}} and low {{low}} {{currency}} in the last 24 hours",
+        "market_cap_label": "Market cap {{value}} {{currency}}",
+        "change_label": "Change of {{value}} percent in the last 24 hours",
+        "region_label": "Cryptocurrency table section"
+    },
+    "charts": {
+        "line_title": "Top {{value}} - Price and Market Cap",
+        "line_region_label": "Line chart showing price and market capitalization",
+        "line_description": "Chart showing the variation of current price and market capitalization for the top {{value}} cryptocurrencies.",
+        "line_data_summary": "Line chart data",
+        "line_data_intro": "Below are the values represented in the chart:",
+        "line_price_value": "price {{value}} dollars",
+        "line_marketcap_value": "market cap {{value}} dollars",
+        "line_price": "Price",
+        "line_marketcap": "Market Cap",
+        "pie_title": "Top {{value}} - % Change (24h)",
+        "bar_title": "Top {{value}} - Trade Volume (24h)"
+    },
+    "accessibility_charts": {
+        "pie_title": "Top {{value}} - Percentage Change (24h)",
+        "pie_region_label": "Pie chart showing percentage changes of cryptocurrencies",
+        "pie_description": "This chart shows the 24-hour percentage variations of the top {{value}} cryptocurrencies.",
+        "pie_data_summary": "Accessible data of the pie chart",
+        "pie_data_intro": "Below are the percentage changes represented in the chart:",
+        "pie_value": "{{value}} percent"
+    },
+    "accessibility_bar_chart": {
+        "title": "Top {{value}} - Trading Volume (24h)",
+        "region_label": "Bar chart showing trading volume by cryptocurrency",
+        "description": "This chart shows the trading volume of the top {{value}} cryptocurrencies in the last 24 hours.",
+        "data_summary": "Accessible data of the bar chart",
+        "data_intro": "Below are the trading volumes represented:",
+        "value_label": "volume {{value}} units",
+        "legend_label": "24h Volume"
+    },
+    "pagination": {
+        "page_of": "Page {{current}} of {{total}}",
+        "prev": "Previous",
+        "next": "Next",
+        "navigation_label": "Pagination controls"
+    },
+    "theme": {
+        "light": "Switch to light mode",
+        "dark": "Switch to dark mode",
+        "theme": "Switch theme"
+    },
+    "lang": {
+        "spanish": "Spanish",
+        "english": "English"
+    },
+    "labels": {
+        "currency": "Currency",
+        "order": "Order by",
+        "top": "Number of coins",
+        "trend": "Trend",
+        "price_range": "Price range",
+        "search": "Search"
+    },
+    "layout": {
+        "announcement": "Current language is {{lang}} and theme is {{theme}}",
+        "controls_aria": "Language and theme controls",
+        "main_aria": "Main section of the cryptocurrency dashboard",
+        "footer": "© 2025 Crypto Dashboard. All rights reserved."
+    }
+}

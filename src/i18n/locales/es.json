@@ -1,0 +1,118 @@
+{
+    "app": {
+        "title": "Crypto Dashboard",
+        "loading": "Cargando datos...",
+        "error": "Error al obtener los datos.",
+        "title_aria": "Panel de criptomonedas"
+    },
+    "filters": {
+        "search": "Buscar...",
+        "reset": "Reiniciar filtros",
+        "currency": "Moneda",
+        "top": "Top {{value}}",
+        "order": {
+            "market_cap_desc": "Market cap ↓",
+            "market_cap_asc": "Market cap ↑",
+            "volume_desc": "Volumen ↓"
+        },
+        "trend": {
+            "all": "Todas",
+            "positive": "En alza",
+            "negative": "En baja"
+        },
+        "price_range": {
+            "all": "Todos los precios",
+            "less": "o menos",
+            "low": "Menos de $1",
+            "medium": "$1 – $100",
+            "high": "$100 – $10,000",
+            "very_high": "Más de $10,000"
+        }
+    },
+    "aria": {
+        "currency": "Seleccionar moneda",
+        "order": "Seleccionar orden",
+        "top": "Seleccionar número de monedas a mostrar",
+        "trend": "Seleccionar tendencia",
+        "price_range": "Seleccionar rango de precios",
+        "search": "Buscar criptomoneda",
+        "reset_filters": "Reiniciar todos los filtros"
+    },
+    "table": {
+        "aria_description": "Tabla de criptomonedas con precios, capitalización y variaciones diarias",
+        "number": "#",
+        "coin": "Moneda",
+        "price": "Precio",
+        "volume_24h": "Volumen 24h",
+        "high_low_24h": "Máx/Mín 24h",
+        "market_cap": "Market Cap",
+        "change_24h": "% 24h",
+        "coin_name": "Moneda",
+        "coin_logo_alt": "Logo de {{name}}",
+        "price_label": "Precio {{value}} {{currency}}",
+        "volume_label": "Volumen {{value}} {{currency}}",
+        "high_low_label": "Máximo {{high}} y mínimo {{low}} {{currency}} en las últimas 24 horas",
+        "market_cap_label": "Capitalización de mercado {{value}} {{currency}}",
+        "change_label": "Cambio de {{value}} por ciento en las últimas 24 horas",
+        "region_label": "Sección de tabla de criptomonedas"
+    },
+    "charts": {
+        "line_title": "Top {{value}} - Precio y Capitalización",
+        "line_region_label": "Gráfico de líneas con precios y capitalización de mercado",
+        "line_description": "Gráfico que muestra la variación del precio actual y la capitalización de mercado de las principales {{value}} criptomonedas.",
+        "line_data_summary": "Datos del gráfico de líneas",
+        "line_data_intro": "A continuación se enumeran los valores representados en el gráfico:",
+        "line_price_value": "precio {{value}} dólares",
+        "line_marketcap_value": "capitalización de mercado {{value}} dólares",
+        "line_price": "Precio",
+        "line_marketcap": "Capitalización de mercado",
+        "pie_title": "Top {{value}} - Variación % (24h)",
+        "bar_title": "Top {{value}} - Volumen de Comercio (24h)"
+    },
+    "accessibility_charts": {
+        "pie_title": "Top {{value}} - Variación porcentual (24h)",
+        "pie_region_label": "Gráfico de pastel con variaciones porcentuales de criptomonedas",
+        "pie_description": "Este gráfico muestra las variaciones porcentuales de las principales {{value}} criptomonedas en las últimas 24 horas.",
+        "pie_data_summary": "Datos accesibles del gráfico de pastel",
+        "pie_data_intro": "A continuación se muestran las variaciones porcentuales representadas:",
+        "pie_value": "{{value}} por ciento"
+    },
+    "accessibility_bar_chart": {
+        "title": "Top {{value}} - Volumen de comercio (24h)",
+        "region_label": "Gráfico de barras con volumen de comercio por criptomoneda",
+        "description": "Este gráfico muestra el volumen de comercio de las principales {{value}} criptomonedas en las últimas 24 horas.",
+        "data_summary": "Datos accesibles del gráfico de barras",
+        "data_intro": "A continuación se muestran los volúmenes de comercio representados:",
+        "value_label": "volumen {{value}} unidades",
+        "legend_label": "Volumen 24h"
+    },
+    "pagination": {
+        "page_of": "Página {{current}} de {{total}}",
+        "prev": "Anterior",
+        "next": "Siguiente",
+        "navigation_label": "Controles de paginación"
+    },
+    "theme": {
+        "light": "Cambiar a modo claro",
+        "dark": "Cambiar a modo oscuro",
+        "theme": "Cambiar tema"
+    },
+    "lang": {
+        "spanish": "Español",
+        "english": "Inglés"
+    },
+    "labels": {
+        "currency": "Moneda",
+        "order": "Ordenar por",
+        "top": "Cantidad de monedas",
+        "trend": "Tendencia",
+        "price_range": "Rango de precios",
+        "search": "Buscar"
+    },
+    "layout": {
+        "announcement": "El idioma actual es {{lang}} y el tema es {{theme}}",
+        "controls_aria": "Controles de idioma y tema",
+        "main_aria": "Sección principal del panel de criptomonedas",
+        "footer": "© 2025 Crypto Dashboard. Todos los derechos reservados."
+    }
+}
