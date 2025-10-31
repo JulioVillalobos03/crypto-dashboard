@@ -140,7 +140,7 @@ Se implementaron hooks personalizados, internacionalización y pruebas unitarias
 ## 🚀 Despliegue en Producción
 
 🔗 **Demo en Vivo:**  
-👉 [Crypto Dashboard](https://crypto-dashboard-f32y2b8qt-julio-villalobos-projects.vercel.app/)
+👉 [Crypto Dashboard](https://crypto-dashboard-gray-three.vercel.app/)
 
 
 
