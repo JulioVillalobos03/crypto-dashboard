@@ -137,6 +137,12 @@ Se implementaron hooks personalizados, internacionalización y pruebas unitarias
 - Cambio de idioma
 ![Cambio de idioma](./src/assets/uso-de-cambio-de-idioma.png)
 
+## 🚀 Despliegue en Producción
+
+🔗 **Demo en Vivo:**  
+👉 [Crypto Dashboard](https://crypto-dashboard-f32y2b8qt-julio-villalobos-projects.vercel.app/)
+
+
 
 ## 🧑‍💻 Autor
 

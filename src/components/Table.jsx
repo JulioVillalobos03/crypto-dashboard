@@ -90,6 +90,10 @@ export default function Table({ data = [], currency = "USD" }) {
                 <tr
                   key={c.id}
                   role="row"
+                  tabIndex="0"
+                  aria-label={`${t("table.coin_name")}: ${c.name}, 
+                  ${t("table.price")}: ${toCurrency(c.current_price, currency)}, 
+                  ${t("table.change_24h")}: ${c.price_change_percentage_24h?.toFixed(2)}%`}
                   className="border-t border-slate-300 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800/40 transition"
                 >
                   <td role="cell" className="px-3 py-2">
