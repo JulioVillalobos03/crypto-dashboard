@@ -1,8 +1,8 @@
 import { useTheme } from "../hooks/useTheme";
-import LangSwitcher from "./LangSwitcher";
-import ThemeSwitcher from "./ThemeSwitcher";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Layout({ children }) {
   const { theme, toggleTheme } = useTheme();
@@ -12,9 +12,7 @@ export default function Layout({ children }) {
 
   useEffect(() => {
     const lang = i18n.language.startsWith("en") ? "English" : "Español";
-    setAnnouncement(
-      t("layout.announcement", { theme, lang })
-    );
+    setAnnouncement(t("layout.announcement", { theme, lang }));
   }, [theme, i18n.language]);
 
   return (
@@ -23,26 +21,11 @@ export default function Layout({ children }) {
       role="document"
       lang={i18n.language.startsWith("en") ? "en" : "es"}
     >
-      <div
-        aria-live="assertive"
-        className="sr-only"
-      >
+      <div aria-live="assertive" className="sr-only">
         {announcement}
       </div>
 
-      <header
-        role="banner"
-        className="border-b border-slate-300 dark:border-slate-800 px-4 py-3 flex items-center justify-between"
-      >
-        <h1 tabIndex="0" className="text-2xl font-bold" aria-label={t("app.title_aria")}>
-          {t("app.title")}
-        </h1>
-
-        <div className="flex items-center gap-2" role="group" aria-label={t("layout.controls_aria")}>
-          <LangSwitcher />
-          <ThemeSwitcher theme={theme} toggleTheme={toggleTheme} />
-        </div>
-      </header>
+      <Header theme={theme} toggleTheme={toggleTheme} />
 
       <main
         role="main"
@@ -53,12 +36,7 @@ export default function Layout({ children }) {
         {children}
       </main>
 
-      <footer
-        role="contentinfo"
-        className="text-center text-xs text-slate-400 py-4"
-      >
-        {t("layout.footer")}
-      </footer>
+      <Footer />
     </div>
   );
 }
